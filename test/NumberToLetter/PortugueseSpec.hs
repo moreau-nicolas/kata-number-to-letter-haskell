@@ -6,7 +6,7 @@ import Test.Hspec
 spec :: Spec
 spec = do
     describe "Convert number to letter in Portuguese" $ do
-        it "numbers up to sixteen are simple constants" $ do
+        it "numbers up to nineteen are simple constants" $ do
             numberToLetter 0 `shouldBe` "zero"
             numberToLetter 1 `shouldBe` "um"
             numberToLetter 2 `shouldBe` "dois"
